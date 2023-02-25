@@ -1,6 +1,6 @@
 # Frontend Mentor - Calculator app
 
-calculator-app\src\design\desktop-preview.jpg
+![desktop-preview](https://user-images.githubusercontent.com/74449692/221373344-6b4f8222-d6cb-47ac-92fa-8e8c2d51b5e9.jpg)
 
 ## Welcome! 👋
 
