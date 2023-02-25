@@ -1,0 +1,160 @@
+
+.Layout{
+    min-height: 26.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181F33;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    // Theme 1
+    .row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .button{
+            background-color: #EAE3DC;
+            box-shadow: inset 0px -4px 0px #B3A497;
+            min-width: 3.75rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.5rem;
+            margin: 0.4375rem;
+            cursor: pointer;
+
+            // text styling
+            font-family: 'League Spartan';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 1.8125rem;
+            letter-spacing: -0.0333rem;
+            color: #434A59;
+
+            // make button unselecatble
+            user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+        }
+        .button:active{
+            opacity: 0.5;
+        }
+        // theme 1
+        .del1{
+            font-size: 1.25rem;
+            line-height: 1.125rem;
+            letter-spacing: -0.0208rem;
+            color: #FFFFFF;
+            background-color: #647198;
+            box-shadow: inset 0px -4px 0px #414E73;
+        }
+        .reset1{
+            width: 50%;
+            font-size: 1.25rem;
+            line-height: 1.125rem;
+            letter-spacing: -0.0208rem;
+            color: #FFFFFF;
+            background-color: #647198;
+            box-shadow: inset 0px -4px 0px #414E73;
+        }
+        .equals1{
+            width: 50%;
+            font-size: 1.25rem;
+            line-height: 1.125rem;
+            letter-spacing: -0.0208rem;
+            color: #FFFFFF;
+            background-color: #D03F2F;
+            box-shadow: inset 0px -4px 0px #93261A;
+        }
+    }
+}
+
+// theme 2
+.Layout2{
+    background-color: #D2CDCD ;
+    .button2{
+        background-color: #E5E4E1;
+        box-shadow: inset 0px -4px 0px #A79E91;
+    }
+    .del2{
+        font-size: 1.25rem !important;
+        line-height: 1.125rem !important;
+        letter-spacing: -0.0208rem !important;
+        color: #FFFFFF !important;
+        background-color: #378187 !important;
+        box-shadow: inset 0px -4px 0px #1B6066 !important;
+    }
+    .reset2{
+        width: 50%;
+        font-size: 1.25rem !important;
+        line-height: 1.125rem !important;
+        letter-spacing: -0.0208rem !important;
+        color: #FFFFFF !important;
+        background: #378187 !important;
+        box-shadow: inset 0px -4px 0px #1B6066 !important;
+    }
+    .equals2{
+        width: 50%;
+        font-size: 1.25rem;
+        line-height: 1.125rem;
+        letter-spacing: -0.0208rem;
+        color: #FFFFFF !important;
+        background: #C85402 !important;
+        box-shadow: inset 0px -4px 0px #873901 !important;
+    }
+}
+
+// theme 3
+.Layout3{
+    background-color: #1E0936 ;
+    .button3{
+        color: #FFE53D !important;
+        background: #331C4D !important;
+        box-shadow: inset 0px -4px 0px #881C9E !important;
+    }
+    .del3{
+        font-size: 1.25rem !important;
+        line-height: 1.125rem !important;
+        letter-spacing: -0.0208rem !important;
+        color: #FFFFFF !important;
+        background: #56077C !important;
+        box-shadow: inset 0px -4px 0px #BE15F4 !important;
+    }
+    .reset3{
+        width: 50%;
+        font-size: 1.25rem !important;
+        line-height: 1.125rem !important;
+        letter-spacing: -0.0208rem !important;
+        color: #FFFFFF !important;
+        background: #56077C !important;
+        box-shadow: inset 0px -4px 0px #BE15F4 !important;
+    }
+    .equals3{
+        width: 50%;
+        font-size: 1.25rem;
+        line-height: 1.125rem;
+        letter-spacing: -0.0208rem;
+        color: #1A2327 !important;
+        background: #00DED0 !important;
+        box-shadow: inset 0px -4px 0px #6CF9F1 !important;
+    }
+}
+// Desktop Version
+
+@media screen and (min-width: 1440px) {
+    .Layout{
+        .row{
+            .button{
+                min-width: 6.3125rem;
+                height: 4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.Screen {
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-top: 2.25rem;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+.Screen span {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.3125rem;
+  text-align: right;
+  letter-spacing: -0.0417rem;
+  margin: 1.375rem 1.5rem;
+}
+
+.Screen1 {
+  background-color: #181F33;
+}
+.Screen1 span {
+  color: #FFFFFF;
+}
+
+.Screen2 {
+  background-color: #EEEEEE;
+}
+.Screen2 span {
+  color: #36362C;
+}
+
+.Screen3 {
+  background-color: #1E0936;
+}
+.Screen3 span {
+  color: #FFE53D;
+}/*# sourceMappingURL=Screen.css.map */

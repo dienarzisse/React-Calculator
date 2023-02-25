@@ -1,0 +1,99 @@
+.TopBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+.TopBar .Logo {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.8125rem;
+  text-align: center;
+  letter-spacing: -0.0333rem;
+}
+.TopBar .Theme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.TopBar .Theme span {
+  text-transform: uppercase;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.6875rem;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+  margin-right: 1.625rem;
+}
+.TopBar .Theme .ThemeSwitch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TopBar .Theme .ThemeSwitch ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+  margin-bottom: 0.3125rem;
+}
+.TopBar .Theme .ThemeSwitch ul li {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.6875rem;
+  text-align: center;
+}
+.TopBar .Theme .ThemeSwitch .Switch {
+  width: 4.4375rem;
+  height: 1.625rem;
+  border-radius: 1rem;
+  background-color: #242D44;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.TopBar .Theme .ThemeSwitch .Switch .Circle {
+  width: 1rem;
+  height: 1rem;
+  background-color: #D03F2F;
+  border-radius: 999rem;
+  margin: 0.3125rem;
+}
+.TopBar .Theme .ThemeSwitch .Switch .Circle1 {
+  transform: translateX(0);
+}
+.TopBar .Theme .ThemeSwitch .Switch .Circle2 {
+  transform: translateX(1.375rem);
+}
+.TopBar .Theme .ThemeSwitch .Switch .Circle3 {
+  transform: translateX(2.75rem);
+}
+
+.TopBar2 {
+  color: #36362C !important;
+}
+.TopBar2 .Switch {
+  background-color: #D2CDCD !important;
+}
+
+.TopBar3 {
+  color: #FFE53D !important;
+}
+.TopBar3 .Switch {
+  background-color: #1E0936 !important;
+}
+.TopBar3 .Circle {
+  background-color: #00DED0 !important;
+}/*# sourceMappingURL=TopBar.css.map */

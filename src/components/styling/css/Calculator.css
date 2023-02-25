@@ -1,0 +1,23 @@
+.Calculator {
+  min-width: 23.4375rem;
+  padding: calc((100vh - 39.25rem) / 2) calc((100vw - 21rem) / 2);
+}
+
+.Calculator1 {
+  background-color: #3A4663 !important;
+}
+
+.Calculator2 {
+  background-color: #E6E6E6 !important;
+}
+
+.Calculator3 {
+  background-color: #17062A !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .Calculator {
+    min-width: 33.75rem;
+    padding: calc((100vh - 39.25rem) / 2) calc((100vw - 31.5rem) / 2);
+  }
+}/*# sourceMappingURL=Calculator.css.map */

@@ -1,0 +1,104 @@
+
+.TopBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    .Logo{
+        font-family: 'League Spartan';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 1.8125rem;
+            text-align: center;
+            letter-spacing: -0.0333rem;
+    }
+    .Theme{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        span{
+            text-transform: uppercase;
+            font-family: 'League Spartan';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.75rem;
+            line-height: 0.6875rem;
+            text-align: center;
+            letter-spacing: 0.0625rem;
+            margin-right: 1.625rem;
+        }
+        .ThemeSwitch{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                list-style-type: none;
+                margin-bottom: 0.3125rem;
+                li{
+                    font-family: 'League Spartan';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 0.75rem;
+                    line-height: 0.6875rem;
+                    text-align: center;
+                }
+            }
+            .Switch{
+                width: 4.4375rem;
+                height: 1.625rem;
+                border-radius: 1rem;
+                background-color: #242D44;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                cursor: pointer;
+                .Circle{
+                    width: 1rem;
+                    height: 1rem;
+                    background-color: #D03F2F;
+                    border-radius: 999rem;
+                    margin: 0.3125rem;
+                }
+                .Circle1{
+                    transform: translateX(0);
+                }
+                .Circle2{
+                    transform: translateX(1.375rem);
+                }
+                .Circle3{
+                    transform: translateX(2.75rem); 
+                }
+            }
+        }
+    }
+    
+}
+
+// theme 2
+
+.TopBar2{
+    color: #36362C !important;
+    .Switch{
+        background-color: #D2CDCD !important;
+    }
+}
+
+// theme 3
+.TopBar3{
+    color: #FFE53D !important;
+    .Switch{
+        background-color: #1E0936 !important;
+    }
+    .Circle{
+        background-color: #00DED0 !important;
+    }
+}
