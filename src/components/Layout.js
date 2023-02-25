@@ -26,9 +26,7 @@ function Layout({ Theme, ScreenText, setScreenText }){
     const handleSign = (event) => {
         let dataValue = event.target.getAttribute('data-value');
         let textWithoutCommas = ScreenText.split(",").join("");
-        if(textWithoutCommas.length < 1 && dataValue === ".")
-            textWithoutCommas = "0";
-        if(textWithoutCommas.length < 1 && dataValue !== ".")
+        if(textWithoutCommas.length < 1)
             return;
         try{
             let evalText = eval(textWithoutCommas);
@@ -38,6 +36,15 @@ function Layout({ Theme, ScreenText, setScreenText }){
         catch(err){
             console.log(err);
         }  
+    }
+
+    const handlePoint = () => {
+        let textWithoutCommas = ScreenText.split(",").join("");
+        if(textWithoutCommas.length === 0)
+            textWithoutCommas = "0";
+        if("+-/*".includes(textWithoutCommas[textWithoutCommas.length - 1]))
+            return;
+        setScreenText(`${ ScreenText }.`)
     }
 
     const handleReset = () => {
@@ -71,7 +78,7 @@ function Layout({ Theme, ScreenText, setScreenText }){
                 <div onClick={ handleSign } className={`minus button button${ Theme }`} data-value="-">-</div>
             </div>
             <div className="row">
-                <div onClick={ handleSign } className={`point button button${ Theme }`} data-value=".">.</div>
+                <div onClick={ handlePoint } className={`point button button${ Theme }`} data-value=".">.</div>
                 <div onClick={ handleDigit } className={`number button button${ Theme }`} data-value="0">0</div>
                 <div onClick={ handleSign } className={`division button button${ Theme }`} data-value="/">/</div>
                 <div onClick={ handleSign } className={`multiplication button button${ Theme }`} data-value="*">x</div>
